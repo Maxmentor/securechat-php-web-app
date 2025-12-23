@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CrickMax</title>
+<title>SecureChat</title>
 <link rel="stylesheet" href="assets/css/style.css">
 
 <style>
@@ -142,4 +142,5 @@ body{
  Developed by : Maxpro [Maxmentor]
  GitHub       : https://github.com/maxmentor
  Telegram     : https://t.me/maxmentor
+
 ======================================================== -->
