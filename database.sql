@@ -1,7 +1,3 @@
-/* =========================================
-   DATABASE : CRICKMAX
-   ========================================= */
-
 
 /* =========================================
    ROOMS TABLE
@@ -30,28 +26,6 @@ CREATE TABLE messages (
 );
 
 
-/* =========================================
-   ADMIN SETTINGS TABLE
-   ========================================= */
-CREATE TABLE admin_settings (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  brand_name VARCHAR(100) NOT NULL,
-  footer_text VARCHAR(255) NOT NULL,
-
-  btn1_text VARCHAR(50) DEFAULT NULL,
-  btn1_url  VARCHAR(255) DEFAULT NULL,
-
-  btn2_text VARCHAR(50) DEFAULT NULL,
-  btn2_url  VARCHAR(255) DEFAULT NULL,
-
-  btn3_text VARCHAR(50) DEFAULT NULL,
-  btn3_url  VARCHAR(255) DEFAULT NULL,
-
-  btn4_text VARCHAR(50) DEFAULT NULL,
-  btn4_url  VARCHAR(255) DEFAULT NULL
-);
-
-
 
 CREATE TABLE admin_users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -62,22 +36,6 @@ CREATE TABLE admin_users (
 
 
 
-/* =========================================
-   DEFAULT ADMIN ROW
-   ========================================= */
-INSERT INTO admin_settings
-(
-
-)
-VALUES
-(
-  'CrickMax',
-  '© 2025 CrickMax. All Rights Reserved',
-  NULL, NULL,
-  NULL, NULL,
-  NULL, NULL,
-  NULL, NULL
-);
 
 
 /* =========================================
