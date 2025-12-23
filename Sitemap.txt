@@ -1,0 +1,40 @@
+crickmax/
+│
+├── assets/
+│   ├
+│   ├── js/
+│       ├
+│       ├── chat.js
+│       └── room.js
+│   
+│
+├── uploads/
+│   ├── public_images/
+│   └── private_images/
+│
+├── config/
+│   ├── config.php
+│  
+│
+├── admin/
+│   ├── admin.php
+│   └── admin_action.php
+│   ├── login.php
+│   └── register.php
+│
+├── api/
+│   ├── send_message.php
+│   ├── fetch_messages.php
+│   ├── create_room.php
+│   ├── join_room.php
+│   ├── exit_room.php
+│
+├── splash.php
+├── index.php       
+├── userset.php
+├── create-room.php
+├── join-room.php
+├── public-rooms.php
+├── stream.php (steram is chat window)
+├── logout.php
+└── database.sql
